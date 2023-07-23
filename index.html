@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/0ac437c3d7.js" crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <nav 
+        style="height: 94px; background-color: #a9229c;">
+              <div style="display: flex;
+              justify-content: space-around;">
+                <div style="display: flex;">
+                <div style="margin-top: 35px;"><i style="border: 2px solid;border-radius: 60px; height: 20px; width: 23px; padding-left: 9px; padding-top: 5px; background-color: #bcae2c; margin-right: 5px;" class="fa-sharp fa-solid fa-bolt"></i></div>
+                <h4 style="margin-top: 31px; font-size: 25px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style: italic; margin-left: 5px; color: rgb(7, 41, 89);">Welcome!</h2>
+                </div>
+                <div style="display: flex; margin-top: 5px;">
+                    <div style="display: flex; align-items: center; margin-bottom: 38px; font-family: 'Times New Roman', Times, serif; font-size: 17px; margin-top: 14px;">
+                        <p><a style="text-decoration:none;margin-right: 5px; color: burlywood;" href="">Home</a></p>
+                    <p><a style="text-decoration:none;margin-right: 5px; color: burlywood;" href="">About</a></p>
+                    <p><a style="text-decoration:none; margin-right: 5px; color: burlywood;" href="">Works</a></p>
+                    </div>
+                        <p class="profile"><a href=""><img style="width: 51px;
+                            height: 51px;
+                            margin-left: 5px;
+                            align-items: center;" src="images/players/player-5.png" alt=""></a>
+                            </p>
+                            <!-- <div class="profile-hover" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: blueviolet; background-color: antiquewhite;">
+                                <h3>my profile</h3>
+                            </div> -->
+                </div>
+              </div>
+        </nav>
+
+    </header>
+    <!-- main -->
+    <main style="margin-top: 27px;">
+        <!-- section-one{top players and top blogs} -->
+        <section style="margin-top: 0px;" class="container">
+            <div class="top-players">
+                <h2 class="section-title">TOP PLAYERS</h2>
+                <div class="players">
+                   <!-- .player*6>img[src="images/players/player-$.png"]+h3{Top Player-$} -->
+                   <div class="player">
+                    <img src="images/players/player-1.png" alt="">
+                    <h3 class="player-name">Top Player-101</h3>
+                       </div>
+                   <div class="player">
+                    <img src="images/players/player-2.png" alt="">
+                    <h3 class="player-name" class="player-name">Top Player-202</h3>
+                   </div>
+                   <div class="player">
+                    <img src="images/players/player-3.png" alt="">
+                    <h3 class="player-name">Top Player-303</h3>
+                   </div>
+                   <div class="player">
+                    <img src="images/players/player-4.png" alt="">
+                    <h3 class="player-name">Top Player-404</h3>
+                   </div>
+                   <div class="player">
+                    <img src="images/players/player-5.png" alt="">
+                    <h3 class="player-name">Top Player-505</h3>
+                   </div>
+                   <div class="player">
+                    <img src="images/players/player-6.png" alt="">
+                    <h3 class="player-name">Top Player-303</h3>
+                   </div>
+                </div>
+            </div>
+            <hr style="
+            border: 1px solid;
+            color: #1c7979;
+            ">
+            <!-- <hr style="
+                transform: rotate(90.00deg);
+                position: absolute;
+                width: 333.32px;
+                height: 4px;
+                left: 80px;
+                top: 493px;
+                background-color: #42525f;
+                border-radius: 8px;
+            "> -->
+            <!-- blog div -->
+            <h2 class="section-title">Top Blogs</h2>
+            <div class="top-blogs">
+                <span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(104, 35, 122); background-color: rgb(175, 188, 202); font-size: 9px; height: 78px; width: 78px; margin: 70px; padding: 5px;" class="hoverr">SCROLL DOWN OR UP FOR MORE!!! just forced to hover! please don't mind!</span>
+                    <div class="blogs">
+                        <article class="blog">
+                            <div class="thumbnail">
+                                <img src="images/blogs/blog-1.png" alt="">
+                            </div>
+                            <div class="blog-info">
+                                <h3 class="blog-title"><a  style=
+                                    "text-decoration: none;
+                                    color: rgb(231, 216, 198);
+                                    font-size: 19px;" 
+                                    href="">13 of My Favorite UI/UX Goodies</a></h3>
+                                <p class="blog-author">By <a href="">Danny Sapio</a></p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="blogs">
+                            <article class="blog">
+                                <div class="thumbnail">
+                                    <img src="images/blogs/blog-4.png" alt="">
+                                </div>
+                                <div class="blog-info">
+                                    <h3 class="blog-title"><a  style=
+                                        "text-decoration: none;
+                                        color: rgb(231, 216, 198);
+                                        font-size: 19px;" href="">13 of My Favorite UI/UX Goodies</a></h3>
+                                    <p class="blog-author">By <a href="">Danny Sapio</a></p>
+                                </div>
+                            </article>
+                    </div>
+                    <div class="blogs">
+                            <article class="blog">
+                                <div class="thumbnail">
+                                    <img src="images/blogs/blog-2.png" alt="">
+                                </div>
+                                <div class="blog-info">
+                                    <h3 class="blog-title"><a  style=
+                                        "text-decoration: none;
+                                        color: rgb(231, 216, 198);
+                                        font-size: 19px;" href="">13 of My Favorite UI/UX Goodies</a></h3>
+                                    <p class="blog-author">By <a href="">Danny Sapio</a></p>
+                                </div>
+                            </article>
+                    </div>
+                    <div class="blogs">
+                            <article class="blog">
+                                <div class="thumbnail">
+                                    <img src="images/blogs/blog-2.png" alt="">
+                                </div>
+                                <div class="blog-info">
+                                    <h3 class="blog-title"><a  style=
+                                        "text-decoration: none;
+                                        color: rgb(231, 216, 198);
+                                        font-size: 19px;" href="">13 of My Favorite UI/UX Goodies</a></h3>
+                                    <p class="blog-author">By <a href="">Danny Sapio</a></p>
+                                </div>
+                            </article>
+                    </div>
+                    <div class="blogs">
+                            <article class="blog">
+                                <div class="thumbnail">
+                                    <img src="images/blogs/blog-2.png" alt="">
+                                </div>
+                                <div class="blog-info">
+                                    <h3 class="blog-title"><a  style=
+                                        "text-decoration: none;
+                                        color: rgb(231, 216, 198);
+                                        font-size: 19px;" href="">13 of My Favorite UI/UX Goodies</a></h3>
+                                    <p class="blog-author">By <a href="">Danny Sapio</a></p>
+                                </div>
+                            </article>
+                    </div>
+                    <div class="blogs">
+                            <article class="blog">
+                                <div class="thumbnail">
+                                    <img src="images/blogs/blog-3.png" alt="">
+                                </div>
+                                <div class="blog-info">
+                                    <h3 class="blog-title"><a  style=
+                                        "text-decoration: none;
+                                        color: rgb(231, 216, 198);
+                                        font-size: 19px;" href="">13 of My Favorite UI/UX Goodies</a></h3>
+                                    <p class="blog-author">By <a href="">Danny Sapio</a></p>
+                                </div>
+                            </article>
+                    </div>
+                    <div class="blogs">
+                            <article class="blog">
+                                <div class="thumbnail">
+                                    <img src="images/blogs/blog-3.png" alt="">
+                                </div>
+                                <div class="blog-info">
+                                    <h3 class="blog-title"><a  style=
+                                        "text-decoration: none;
+                                        color: rgb(231, 216, 198);
+                                        font-size: 19px;" href="">13 of My Favorite UI/UX Goodies</a></h3>
+                                    <p class="blog-author">By <a href="">Danny Sapio</a></p>
+                                </div>
+                            </article>
+                    </div>
+                    <div class="blogs">
+                            <article class="blog">
+                                <div class="thumbnail">
+                                    <img src="images/blogs/blog-3.png" alt="">
+                                </div>
+                                <div class="blog-info">
+                                    <h3 class="blog-title"><a  style=
+                                        "text-decoration: none;
+                                        color: rgb(231, 216, 198);
+                                        font-size: 19px;" href="">13 of My Favorite UI/UX Goodies</a></h3>
+                                    <p class="blog-author">By <a href="">Danny Sapio</a></p>
+                                </div>
+                            </article>
+                    </div>
+                    <div class="blogs">
+                            <article class="blog">
+                                <div class="thumbnail">
+                                    <img src="images/blogs/blog-3.png" alt="">
+                                </div>
+                                <div class="blog-info">
+                                    <h3 class="blog-title"><a  style=
+                                        "text-decoration: none;
+                                        color: rgb(231, 216, 198);
+                                        font-size: 19px;" href="">13 of My Favorite UI/UX Goodies</a></h3>
+                                    <p class="blog-author">By <a href="">Danny Sapio</a></p>
+                                </div>
+                            </article>
+                        </div>
+                     <div class="blogs">
+                            <article class="blog">
+                                <div class="thumbnail">
+                                    <img src="images/blogs/blog-3.png" alt="">
+                                </div>
+                                <div class="blog-info">
+                                    <h3 class="blog-title"><a  style=
+                                        "text-decoration: none;
+                                        color: rgb(231, 216, 198);
+                                        font-size: 19px;" href="">13 of My Favorite UI/UX Goodies</a></h3>
+                                    <p class="blog-author">By <a href="">Danny Sapio</a></p>
+                                </div>
+                            </article>
+                    </div>
+            </div>
+        </section>
+        <!-- new section latest course -->
+        <section class="container">
+                <h2 style="background-color: #c1b443; border-radius: 9px; padding-left: 3px;" class="section-title">Latest Courses</h2>
+                <div class="courses">
+                    <span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(104, 35, 122); background-color: rgb(175, 188, 202); font-size: 9px; height: 83px; width: 82px; margin: 70px; padding: 5px;" class="hoverr">CLICK!! and SCROLL LEFT OR RIGHT FOR MORE!!! just forced to hover! please don't mind!</span>
+                    <div class="course-banner">
+                        <img style="border: solid; border-radius: 16px; margin-top: 8px;" src="images/courses/course-1.png" alt="">
+                       <div class="course-details">
+                        <h3 class="course-title">React Complete Guid 2022</h3>
+                        <p class="course-author"><a href="">REED KRAKOFF</a></p>
+                        <div class="course-info">
+                                <div class="star">
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star empty"></i></div>
+                                <p class="rate">4.5</p>
+                                <p class="clock"><i class="fa-solid fa-clock"></i>
+                                01:30hr</p>
+    
+                        </div>
+                       </div>
+                    </div>
+                    <div class="course-banner">
+                        <img style="border: solid; border-radius: 16px; margin-top: 8px; border-color: rgb(217, 217, 210);" src="images/courses/course-2.png" alt="">
+                       <div class="course-details">
+                        <h3 class="course-title">Powerpoint 2020 Master</h3>
+                        <p class="course-author"><a href="">Walter Scott</a></p>
+                        <div class="course-info">
+                                <div class="star">
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star empty"></i></div>
+                                <p class="rate">4.5</p>
+                                <p class="clock"><i class="fa-solid fa-clock"></i>
+                                01:30hr</p>
+    
+                        </div>
+                       </div>
+                    </div>
+                    <div class="course-banner">
+                        <img style="border: solid; border-radius: 16px; margin-top: 8px; border-color: #bcae2c;" src="images/courses/course-3.png" alt="">
+                       <div class="course-details">
+                        <h3 class="course-title">Complete JavaScript Course</h3>
+                        <p class="course-author"><a href="">REED KRAKOFF</a></p>
+                        <div class="course-info">
+                                <div class="star">
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star empty"></i></div>
+                                <p class="rate">4.5</p>
+                                <p class="clock"><i class="fa-solid fa-clock"></i>
+                                    01:30hr</p>
+    
+                        </div>
+                       </div>
+                    </div>
+                    <div class="course-banner">
+                        <img style="border: solid; border-radius: 16px; margin-top: 8px; border-color: #bcae2c;" src="images/courses/course-3.png" alt="">
+                       <div class="course-details">
+                        <h3 class="course-title">Complete JavaScript Course</h3>
+                        <p class="course-author"><a href="">REED KRAKOFF</a></p>
+                        <div class="course-info">
+                                <div class="star">
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star empty"></i></div>
+                                <p class="rate">4.5</p>
+                                <p class="clock"><i class="fa-solid fa-clock"></i>
+                                    01:30hr</p>
+    
+                        </div>
+                       </div>
+                    </div>
+                    <div class="course-banner">
+                        <img style="border: solid; border-radius: 16px; margin-top: 8px; border-color: #bcae2c;" src="images/courses/course-3.png" alt="">
+                       <div class="course-details">
+                        <h3 class="course-title">Complete JavaScript Course</h3>
+                        <p class="course-author"><a href="">REED KRAKOFF</a></p>
+                        <div class="course-info">
+                                <div class="star">
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star empty"></i></div>
+                                <p class="rate">4.5</p>
+                                <p class="clock"><i class="fa-solid fa-clock"></i>
+                                    01:30hr</p>
+    
+                        </div>
+                       </div>
+                    </div>
+                    <div class="course-banner">
+                        <img style="border: solid; border-radius: 16px; margin-top: 8px; border-color: #bcae2c;" src="images/courses/course-3.png" alt="">
+                       <div class="course-details">
+                        <h3 class="course-title">Complete JavaScript Course</h3>
+                        <p class="course-author"><a href="">REED KRAKOFF</a></p>
+                        <div class="course-info">
+                                <div class="star">
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star empty"></i></div>
+                                <p class="rate">4.5</p>
+                                <p class="clock"><i class="fa-solid fa-clock"></i>
+                                    01:30hr</p>
+    
+                        </div>
+                       </div>
+                    </div>
+                    <div class="course-banner">
+                        <img style="border: solid; border-radius: 16px; margin-top: 8px; border-color: #bcae2c;" src="images/courses/course-3.png" alt="">
+                       <div class="course-details">
+                        <h3 class="course-title">Complete JavaScript Course</h3>
+                        <p class="course-author"><a href="">REED KRAKOFF</a></p>
+                        <div class="course-info">
+                                <div class="star">
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star empty"></i></div>
+                                <p class="rate">4.5</p>
+                                <p class="clock"><i class="fa-solid fa-clock"></i>
+                                    01:30hr</p>
+    
+                        </div>
+                       </div>
+                    </div>
+                    <div class="course-banner">
+                        <img style="border: solid; border-radius: 16px; margin-top: 8px; border-color: #bcae2c;" src="images/courses/course-3.png" alt="">
+                       <div class="course-details">
+                        <h3 class="course-title">Complete JavaScript Course</h3>
+                        <p class="course-author"><a href="">REED KRAKOFF</a></p>
+                        <div class="course-info">
+                                <div class="star">
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star empty"></i></div>
+                                <p class="rate">4.5</p>
+                                <p class="clock"><i class="fa-solid fa-clock"></i>
+                                    01:30hr</p>
+    
+                        </div>
+                       </div>
+                    </div>
+                    <div class="course-banner">
+                        <img style="border: solid; border-radius: 16px; margin-top: 8px; border-color: #bcae2c;" src="images/courses/course-3.png" alt="">
+                       <div class="course-details">
+                        <h3 class="course-title">Complete JavaScript Course</h3>
+                        <p class="course-author"><a href="">REED KRAKOFF</a></p>
+                        <div class="course-info">
+                                <div class="star">
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star filled"></i>
+                                    <i class="fa-solid fa-star empty"></i></div>
+                                <p class="rate">4.5</p>
+                                <p class="clock"><i class="fa-solid fa-clock"></i>
+                                    01:30hr</p>
+    
+                        </div>
+                       </div>
+                    </div>
+                </div>
+
+        </section>
+    </main>
+</body>
+</html>
